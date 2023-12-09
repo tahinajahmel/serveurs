@@ -138,7 +138,7 @@
     </div>
     <!--end navbar-->
     <main class="container">
-        <div class="d-flex align-items-center p-3 my-3 text-white bg-danger rounded shadow-sm">
+        <div class="d-flex align-items-center p-3 my-3 text-white bg-success rounded shadow-sm">
             <img class="me-2" src="pages/images/logoC21.png" alt="LOGO" width="68" height="58">
             <div class="lh-1">
                 <h1 class="h4 mb-0 text-white lh-1">CIDST</h1>
@@ -248,6 +248,9 @@
 
     </main>
     <script src="pages/docs/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        alert("Bienvenue sur nos page CIDST");
+    </script>
 </body>
 
 </html>
