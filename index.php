@@ -18,6 +18,8 @@
     <link href="pages/docs/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
     <link href="style/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -250,6 +252,15 @@
     <script src="pages/docs/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         alert("BIENVENUE SUR LE DEMONSTRATION");
+        Swal.fire({
+        title: 'Custom animation with Animate.css',
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+        })
     </script>
 </body>
 
