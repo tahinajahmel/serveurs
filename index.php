@@ -249,7 +249,7 @@
     </main>
     <script src="pages/docs/assets/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        alert("Bienvenue sur nos page CIDST");
+        alert("BIENVENUE SUR LE DEMONSTRATION");
     </script>
 </body>
 
