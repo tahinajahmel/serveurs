@@ -1,0 +1,41 @@
+form{
+     background:rgb(245, 242, 242);
+    border-radius:6px;
+    height: 540px;
+    width: 400px;
+    padding:40px;
+    padding-top: 100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+
+}
+
+input[type="text"],input[type="password"]{
+    border:1px solid black;
+    border-radius:6px;
+    width:100%;
+    height:50px;
+    font-family: corbel;
+}
+
+
+
+ .btn.btn-primary{
+     margin-left: 35%;
+     margin-top: 10%;
+ }
+ .retour{
+    width: 30px;
+    
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bolder;
+
+}
+.retour a{
+   color: white;
+}

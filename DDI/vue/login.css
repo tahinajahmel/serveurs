@@ -1,0 +1,125 @@
+
+  @media screen and (max-width: 300px) {
+    
+    .cancelbtn {
+      width: 100%;
+      
+    }
+  }
+
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  body{
+    background-color: rgb(24, 18, 18);
+}
+
+.imgcontainer {
+    text-align: center;
+    color: cyan; 
+    font-family:Blackadder ITC ;
+    font-size:30px;
+
+  }
+  
+input{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 23px;
+            padding: 10px;
+            font-size: 18px;
+            text-align: center;
+            width: 400px; 
+            text-align: center; 
+            background:rgba(238, 232, 229, 0.678); 
+            border-radius: 20px;
+            border-color: rgba(48, 50, 53, 0.404);
+            color: rgb(14, 12, 12);
+}
+.Load{
+            margin-left:auto;
+            margin-right:auto;
+            border-radius: 10px;
+            box-shadow:0 0 4px rgba(27, 34, 34, 0.623);
+            width:520px;
+            text-align: center;
+            line-height: 70px;
+            height:220px;
+            color: rgb(235, 235, 245);
+            font-family: Helvetica, sans-serif;
+            animation: fa 5s ease-in-out infinite;
+        }
+        @keyframes fa{
+            0%{
+                background-position: 0% 50%;
+                background: linear-gradient(20deg,#363062,white,#827397);
+            }
+            50%{
+                background-position: 100% 50%;
+                background: linear-gradient(20deg,white,#827397,#363062);
+            }
+            100%{
+                background-position: 0% 50%;
+                background: linear-gradient(20deg,#827397,#363062,white);
+            }
+        }
+        button{
+            text-align: center;
+        }
+        .sign:hover a{
+            color: white;
+        }
+        .signannuler{
+            left:9px;
+            position: relative;
+            text-align: center;
+            background-color: rgb(192, 37, 37);
+            font-weight: bold;
+            font-size: 22px;
+            border-radius: 70px;
+            margin:5%;
+            width: 200px;
+            height: 50px;
+           
+            justify-content: center;
+           
+        }
+        .signconnex{
+            left:9px;
+            position: relative;
+            text-align: center;
+            background-color: rgb(48, 143, 48);
+            font-weight: bold;
+            font-size: 22px;
+            border-radius: 70px;
+            margin:5%;
+            width: 200px;
+             height: 50px;
+            justify-content: center;
+          
+        }
+    
+        p{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:silver;
+            font-size: 26px;
+            text-align: center
+    
+       
+        }
+       a{
+           color:black;
+           text-decoration: none;
+
+       }
+       .signconnex:hover{
+        background-color: rgba(47, 241, 9, 0.664);
+    }
+        .signannuler:hover{
+        background-color: rgb(231, 6, 6);
+    }

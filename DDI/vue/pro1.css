@@ -1,0 +1,33 @@
+
+#formCategorie h2{
+    font-family: Blackadder ITC ;
+    font-size: 55px;
+  color:silver;
+  width: fit-content;
+  } 
+  thead{
+      font-family: Agency FB ;
+      font-size: 30px ;
+      
+  }
+  
+  tbody
+  {
+      font-family: Agency FB;
+      font-size: 25px;
+  }
+  
+  #formCategorie , #formCategorie .card-columns{
+      width: 200px !important;
+  }
+  input{
+      width: 400px;
+  }
+  div{
+      color:silver;
+  }
+  .carre{
+      color:silver;
+      margin:15px;
+     border:5px;
+  }
